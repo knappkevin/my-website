@@ -3,8 +3,18 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="p-10 rounded-xl border border-gray-500 shadow-xl/25 hover:shadow-lg/50 shadow-gray-600 flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1 className="text-3xl font-bold tracking-widest">KEVIN KNAPP</h1>
+      <main className="p-8 rounded-xl border border-gray-500 shadow-xl/25 hover:shadow-lg/50 shadow-gray-600 flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+
+        <div className="w-full flex justify-between">
+          <h1 className="text-3xl font-bold tracking-widest">KEVIN KNAPP</h1>
+          <Image
+            className=""
+            src="/origami_penguin_outline.svg"
+            alt="Penguin mascot"
+            width ={38}
+            height={38}
+          />
+        </div>
 
         <div className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
           <a
