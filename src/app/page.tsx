@@ -19,7 +19,7 @@ export default function Home() {
         <div className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="https://www.linkedin.com/in/kevin-knapp-926484216/"
+            href="https://www.linkedin.com/in/knapp-kevin/"
             target="_blank"
             rel="noopener noreferrer"  
           >
